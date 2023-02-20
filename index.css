@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(cyberpunk-background3.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color:#FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4em;
+    list-style: none;
+    position: fixed;
+    top: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #FFEA20;
+    color: black;
+    border: 2px solid black;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-family: 'Audiowide', cursive;
+    padding: 0.7em;
+
+}
+
+.homeboxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.homebox1 {
+    background-color: #060047;
+    color: white;
+    width: 50%;
+    padding: 0.7em;
+    border: 2px solid #E90064;
+    border-radius: 0.4em;
+}
+
+.homebox2 {
+    background-color: #060047;
+    color: white;
+    width: 30%;
+    padding: 0.7em;
+    border: 2px solid #E90064;
+    border-radius: 0.4em;
+}
+
+.homebox1 img {
+    width: 100%;
+}
+
+.homebox2 img {
+    width: 100%;
+}
+
+.homebox1 h2{
+    color:#FFEA20;
+}
+
+.homebox2 h2{
+    color:#FFEA20;
+}
+
+.art-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    background-color: black;
+    color: #FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.pixelart {
+    width: 30%;
+    border: 2px solid #E90064;
+    transition: 0.7s;
+}
+
+.pixelart:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.pixelart2 {
+    width: 20%;
+    border: 2px solid #E90064;
+    transition: 0.7s;
+}
+
+.pixelart2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.more-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-size: 1em;
+    margin-top: 2%;
+    width: 100%;
+}
+.more-button a{
+    text-decoration: none;
+    color: #060047;
+    border: 2px solid #060047;
+    background-color: white;
+    width: 12%;
+}
+
+.more-button a:hover{
+    background-color: #F0EEED;
+    }
+
+.eightbitmusic-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: black;
+    color: #FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+.eightbitmusicbox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    background-color: black;
+    padding: 1.5em;
+}
+
+.music-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: black;
+    color: #FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+.players {
+   display: flex;
+   justify-content:space-around;
+   margin-top: 3%;
+   width: 100%;
+}
+
+.players p {
+    color: #FFEA20;
+    background-color: black;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.2em;
+}
+
+.players .albumimg img {
+    width: 260px;
+    height: 265px;
+}
+
+audio {
+    width: 100%;
+}
+
+.nextpage-button {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    font-size: 1em;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.nextpage-button a{
+    text-decoration: none;
+    color: #FFEA20;
+    border: 2px solid #E90064;
+    background-color: black;
+    width: 12%;
+    margin-right: 2%;
+}
+
+.nextpage-button a:hover{
+    background-color: #181818;
+}
+
+.games-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: black;
+    color: #FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+.gamevideobox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    background-color: black;
+    padding: 1.5em;
+}
+
+.arcadegames-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: black;
+    color: #FFEA20;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+.arcadegames {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.gamecover {
+    width: 20%;
+    cursor: pointer;
+    border: 2px solid #E90064;
+    border-radius: 0.5em;
+}
+
+.contactus {
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 60px;
+    border: 2px solid #E90064;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px; 
+    color: #FFEA20;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+select {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 27px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 70px;
+    font-size: 16px;
+    padding: 3px;
+    margin-top: 2px;
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+hr{
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    background-color: #FFEA20;
+    border: none;
+}
+
+.followus a{
+    color: #FFEA20;
+  }
+  
+  .followus a:hover{
+    color: #E90064;
+  }
+  
+  .followus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  
+  .btn{
+    width: 280px;
+    height: 60px;
+    border: 3px solid #E90064;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 30px;
+    transition: all 0.1s ease;
+  }
+  
+  .btn:before{
+    content: "FOLLOW US";
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFEA20;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    transition: all 0.5s ease;
+  }
+  
+  .btn:hover{
+    background: black;
+  }
+  
+  .btn:hover:before{
+    top: -50%;
+  }
+
+  .Footer h3 {
+    color: gold;
+    font-family: 'Audiowide', cursive;
+    margin-right: 40px;
+}
+
+.Footer {
+    width: 100%;
+    height: 50px;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: auto;
+}
